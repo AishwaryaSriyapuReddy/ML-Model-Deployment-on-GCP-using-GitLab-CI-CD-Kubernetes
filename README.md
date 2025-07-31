@@ -2,7 +2,7 @@
 
 ## Table of Contents
 📌 [Project Overview](#project-overview)  
-📊 Architecture  
+📊 [Architecture](#architecture)  
 ⚙️ [Tech Stack](#tech-stack)  
 🔄 CI/CD Pipeline Stages  
 📊Project Workflow  
