@@ -84,6 +84,10 @@ Pipelines can be triggered manually or automatically on code pushes.
 <img width="917" height="308" alt="image" src="https://github.com/user-attachments/assets/2410da76-c750-4403-9942-5c6f4fb65f6e" />
 
 ## Model Deployment Results
+<img width="959" height="169" alt="image" src="https://github.com/user-attachments/assets/9517f016-7e06-4cc5-b49c-501959403a19" />  
+
+<img width="764" height="471" alt="image" src="https://github.com/user-attachments/assets/707d592e-ea72-43d1-9397-d786dc37137a" />  
+
 
 
 ## Future Enhancements
