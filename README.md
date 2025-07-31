@@ -1,7 +1,7 @@
 # ML-Model-Deployment-on-GCP-using-GitLab-CI-CD-Kubernetes
 
 ## Table of Contents
-📌 Project Overview  
+📌 [Project Overview](#project-overview)  
 📊 Architecture  
 ⚙️ [Tech Stack](#tech-stack)  
 🔄 CI/CD Pipeline Stages  
