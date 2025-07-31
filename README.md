@@ -5,8 +5,8 @@
 📊 [Architecture](#architecture)  
 ⚙️ [Tech Stack](#tech-stack)  
 🔄 [CI/CD Pipeline Stages](#ci-cd-pipeline-stages)  
-📊[Project Workflow](#project-workflow)
-🔄Model Deployment  
+📊 [Project Workflow](#project-workflow)  
+🔄 Model Deployment  
 📝 Future Enhancements  
 
 ## Project Overview
