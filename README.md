@@ -7,7 +7,7 @@
 🔄 [CI/CD Pipeline Stages](#ci-cd-pipeline-stages)  
 📊 [Project Workflow](#project-workflow)  
 🔄 Model Deployment  
-📝 Future Enhancements  
+📝 [Future Enhancements](#future-enhancements)  
 
 ## Project Overview
 This project is a practical MLOps implementation showcasing the building, testing, versioning, and deployment of a machine learning model with **GitLab as both an SCM and CI/CD automation platform**. In comparison to other projects where GitHub and Jenkins or CircleCI were used, this project showcases GitLab's native DevOps features, making it a robust all-in-one enterprise-grade machine learning workflow tool.
@@ -79,4 +79,12 @@ Pipelines can be triggered manually or automatically on code pushes.
    - Create Project and push the code
    - Create Gitlab CICD configuration file in vscode
    - Environment Variables Configuration
-   - Test Pipeline with Manual Trigger and Automatic Trigger
+   - Test Pipeline with Trigger
+
+
+## Future Enhancements
+- Enable automatic model retraining with updated datasets.  
+- Add model versioning using DVC or MLflow.  
+- Integrate monitoring tools like Prometheus and Grafana.
+- Automate GCP infrastructure using Terraform.
+- Log all model predictions for auditing and compliance.
