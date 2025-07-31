@@ -5,8 +5,7 @@
 📊 [Architecture](#architecture)  
 ⚙️ [Tech Stack](#tech-stack)  
 🔄 [CI/CD Pipeline Stages](#ci-cd-pipeline-stages)  
-📊Project Workflow  
-🧪 CircleCI Pipeline Testing  
+📊[Project Workflow](#project-workflow)
 🔄Model Deployment  
 📝 Future Enhancements  
 
@@ -44,14 +43,36 @@ GitLab CI/CD automates the pipeline from code commit to deployment by building D
 - Expose via LoadBalancer : The app is made available at a public IP endpoint.
   
 Pipelines can be triggered manually or automatically on code pushes.
+
 ## Project Workflow
 
-1. **Project Setup**: Virtual environment, modular folder structure, logging & exception setup.
-2. **Notebook Testing**: Run exploratory code in Jupyter to finalize model & preprocessing logic.
-3. **Modular Code Implementation**: Move logic to classes/methods for production readiness.
-4. **Flask App Development**: Create user-friendly UI for predictions.
-5. **Training Pipeline**: Unified script for data processing & model training.
-6. **Code & Data Versioning**: Use GitLab repositories (instead of GitHub/DVC).
-7. **GCP Setup**: Create service accounts, container registry, Kubernetes cluster.
-8. **CI/CD Pipeline**: Use `.gitlab-ci.yml` to automate build → test → deploy process.
-9. **Deployment**: Dockerize app → Push to GCR → Deploy to GKE via GitLab pipeline.
+1. **Project Setup**
+   - Create virtual environments and install dependencies (e.g., pandas, numpy, matplotlib).
+   - Organize project structure with folders like `src`, `pipeline`, and `artifacts`.
+
+2. **Jupyter Notebook Testing**
+   - Perform data processing, model training, and model selection interactively in a notebook.
+
+3. **Modular Code Development**
+   - Convert notebook steps into modular code using classes and methods for better maintainability.
+
+4. **User Application**
+   - Build a simple user interface using Flask and basic HTML.
+
+5. **Training Pipeline**
+   - Combine data processing and model training into a single Python script for streamlined execution.
+
+6. **Data and Code Versioning**
+   - Use GitHub for data and code versioning (suitable for small datasets).
+   - Optionally use DVC for large datasets.
+
+7. **Google Cloud Setup**
+   - Enable required GCP APIs.
+   - Create a Kubernetes cluster on GCP.
+   - Set up artifact repositories and service accounts with necessary permissions.
+   - Create in vscode docker file, kubernetes deployment configuration file, CircleCI configuration file
+  
+8. **GitLab Setup**
+   - Project Setup
+   - Environment Variables Configuration
+   - Test Pipeline with Manual Trigger and Automatic Trigger
