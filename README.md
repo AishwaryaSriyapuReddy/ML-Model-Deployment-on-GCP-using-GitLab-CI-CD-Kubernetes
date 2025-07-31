@@ -13,7 +13,7 @@
 ## Project Overview
 This project is a practical MLOps implementation showcasing the building, testing, versioning, and deployment of a machine learning model with **GitLab as both an SCM and CI/CD automation platform**. In comparison to other projects where GitHub and Jenkins or CircleCI were used, this project showcases GitLab's native DevOps features, making it a robust all-in-one enterprise-grade machine learning workflow tool.
 
-The machine learning task's core is a basic **Support Vector Machine (SVM) model** trained on a limited dataset to maintain the focus on deployment, automation, and infrastructure. The model pipeline, after being created and modularized, is containerized with **Docker**, pushed to **Google Container Registry (GCR)**, and deployed to **Google Kubernetes Engine (GKE)** with the help of **GitLab CI/CD pipelines**.
+The machine learning task's core is a basic model trained on a limited dataset to maintain the focus on deployment, automation, and infrastructure. The model pipeline, after being created and modularized, is containerized with **Docker**, pushed to **Google Container Registry (GCR)**, and deployed to **Google Kubernetes Engine (GKE)** with the help of **GitLab CI/CD pipelines**.
 
 You'll also create a Flask-driven web app to host model predictions through an intuitive interface, supporting real-time input and output for end users.
 
@@ -26,7 +26,6 @@ GitLab CI/CD automates the pipeline from code commit to deployment by building D
 | Category        | Tools Used                              |
 |----------------|------------------------------------------|
 | Language        | Python, HTML, CSS                       |
-| ML Model        | Support Vector Machine (SVM)            |
 | Web App         | Flask                                   |
 | Data & Code Version Control | GitLab              |
 | CI/CD           | GitLab CI/CD Pipelines                  |
