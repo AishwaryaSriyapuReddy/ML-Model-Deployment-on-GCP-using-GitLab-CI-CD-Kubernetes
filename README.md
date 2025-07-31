@@ -65,7 +65,7 @@ Pipelines can be triggered manually or automatically on code pushes.
 6. **Data and Code Versioning**
    - Use GitHub for data and code versioning (suitable for small datasets).
    - Optionally use DVC for large datasets.
-<img width="953" height="398" alt="image" src="https://github.com/user-attachments/assets/1adc34f3-ac59-4feb-b41c-a3872a9ab69e" />
+<img width="500" height="200" alt="image" src="https://github.com/user-attachments/assets/1adc34f3-ac59-4feb-b41c-a3872a9ab69e" />
 
 7. **Google Cloud Setup**
    - Enable required GCP APIs.
