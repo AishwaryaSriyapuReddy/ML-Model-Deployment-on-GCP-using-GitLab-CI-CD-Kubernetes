@@ -78,7 +78,7 @@ Pipelines can be triggered manually or automatically on code pushes.
 8. **GitLab Setup**
    - Create Project and push the code
    - Create Gitlab CICD configuration file in vscode
-   - Environment Variables Configuration
+   - Environment Variables Configuration i.e., GCP-key
    - Test Pipeline with Trigger
 
 
