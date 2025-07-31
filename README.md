@@ -17,6 +17,11 @@ The machine learning task's core is a basic **Support Vector Machine (SVM) model
 
 You'll also create a Flask-driven web app to host model predictions through an intuitive interface, supporting real-time input and output for end users.
 
+## Architecture
+GitLab CI/CD automates the pipeline from code commit to deployment by building Docker images, pushing them to Google Container Registry (GCR), and deploying them to a Google Kubernetes Engine (GKE) cluster. This enables seamless, scalable, and containerized ML app deployment directly from source control.
+
+<img width="7623" height="600" alt="image" src="https://github.com/user-attachments/assets/2be2f09a-a2aa-4294-9c19-066ed7249ba3" />
+
 ## Tech Stack
 | Category        | Tools Used                              |
 |----------------|------------------------------------------|
