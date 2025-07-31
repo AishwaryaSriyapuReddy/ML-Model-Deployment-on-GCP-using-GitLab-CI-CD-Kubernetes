@@ -26,6 +26,7 @@ build_docker_image:
     DOCKER_HOST: tcp://docker:2375
     DOCKER_TLS_CERTDIR: ""
   before_script:
+    - - apt-get update -qq && apt-get install -y -qq docker.io
     - echo "$GCP_SA_KEY" | base64 -d > key.json
     - gcloud auth activate-service-account --key-file=key.json    #Activate Service Account
     - gcloud auth configure-docker $REGISTRY     #Configure Registry
