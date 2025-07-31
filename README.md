@@ -65,8 +65,9 @@ Pipelines can be triggered manually or automatically on code pushes.
 6. **Data and Code Versioning**
    - Use GitHub for data and code versioning (suitable for small datasets).
    - Optionally use DVC for large datasets.
-<img width="500" height="200" alt="image" src="https://github.com/user-attachments/assets/1adc34f3-ac59-4feb-b41c-a3872a9ab69e" />
-GitLab Repo: https://gitlab.com/aishareddy-group/mlops-project/-/tree/4fc90dde2a848772cefa8950c3981fb5cb58020c/
+<img width="500" height="200" alt="image" src="https://github.com/user-attachments/assets/1adc34f3-ac59-4feb-b41c-a3872a9ab69e" />  
+
+**GitLab Repo:** https://gitlab.com/aishareddy-group/mlops-project/-/tree/4fc90dde2a848772cefa8950c3981fb5cb58020c/
 
 7. **Google Cloud Setup**
    - Enable required GCP APIs.
