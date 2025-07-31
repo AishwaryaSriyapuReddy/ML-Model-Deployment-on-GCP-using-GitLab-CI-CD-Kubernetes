@@ -6,7 +6,7 @@
 ⚙️ [Tech Stack](#tech-stack)  
 🔄 [CI/CD Pipeline Stages](#ci-cd-pipeline-stages)  
 📊 [Project Workflow](#project-workflow)  
-🔄 [Model Deployment Results](#model-deployment-results)
+🔄 [Model Deployment Results](#model-deployment-results)  
 📝 [Future Enhancements](#future-enhancements)  
 
 ## Project Overview
