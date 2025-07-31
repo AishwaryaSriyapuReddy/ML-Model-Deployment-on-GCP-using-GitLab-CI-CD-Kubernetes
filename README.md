@@ -6,7 +6,7 @@
 ⚙️ [Tech Stack](#tech-stack)  
 🔄 [CI/CD Pipeline Stages](#ci-cd-pipeline-stages)  
 📊 [Project Workflow](#project-workflow)  
-🔄 Model Deployment  
+🔄 [Model Deployment Results](#model-deployment-results)
 📝 [Future Enhancements](#future-enhancements)  
 
 ## Project Overview
@@ -80,6 +80,10 @@ Pipelines can be triggered manually or automatically on code pushes.
    - Create Gitlab CICD configuration file in vscode
    - Environment Variables Configuration i.e., GCP-key
    - Test Pipeline with Trigger
+   
+<img width="917" height="308" alt="image" src="https://github.com/user-attachments/assets/2410da76-c750-4403-9942-5c6f4fb65f6e" />
+
+## Model Deployment Results
 
 
 ## Future Enhancements
