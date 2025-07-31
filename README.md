@@ -73,9 +73,10 @@ Pipelines can be triggered manually or automatically on code pushes.
    - Enable required GCP APIs.
    - Create a Kubernetes cluster on GCP.
    - Set up artifact repositories and service accounts with necessary permissions.
-   - Create in vscode docker file, kubernetes deployment configuration file, CircleCI configuration file
+   - Create in vscode docker file, kubernetes deployment configuration file
   
 8. **GitLab Setup**
-   - Project Setup
+   - Create Project and push the code
+   - Create Gitlab CICD configuration file in vscode
    - Environment Variables Configuration
    - Test Pipeline with Manual Trigger and Automatic Trigger
