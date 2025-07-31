@@ -4,7 +4,7 @@
 📌 [Project Overview](#project-overview)  
 📊 [Architecture](#architecture)  
 ⚙️ [Tech Stack](#tech-stack)  
-🔄 CI/CD Pipeline Stages  
+🔄 [CI/CD Pipeline Stages](#ci-cd-pipeline-stages)  
 📊Project Workflow  
 🧪 CircleCI Pipeline Testing  
 🔄Model Deployment  
@@ -35,6 +35,16 @@ GitLab CI/CD automates the pipeline from code commit to deployment by building D
 | Deployment      | Google Kubernetes Engine (GKE)          |
 | Cloud Platform  | Google Cloud Platform (GCP)             |
 
+## CI/CD Pipeline Stages
+- **Checkout** Code : Fetch the latest code from GitHub.
+  Install Dependencies/Python packages from requirements.txt.
+  Run Tests / Linting (optional): Perform code quality checks or run test suites.
+- **Build** Docker Image using the Dockerfile.
+- **Push** the image to Google Container Registry.
+- **Deploy** the Docker images/app to Google Kubernetes Engine (GKE) cluster.
+- Expose via LoadBalancer : The app is made available at a public IP endpoint.
+  
+Pipelines can be triggered manually or automatically on code pushes.
 ## Project Workflow
 
 1. **Project Setup**: Virtual environment, modular folder structure, logging & exception setup.
